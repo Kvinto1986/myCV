@@ -7,6 +7,9 @@ body{
     font-family: Tahoma;
     background-color: lightgray;
 }
+p{
+    font-size: 1vw;
+}
 
 h1,h2,h3,h4{
     width: 100%;
@@ -36,8 +39,13 @@ h1,h2,h3,h4{
 }
 
 .mainContainer h3{
-    font-size: 1.2vw;
+    font-size: 1.5vw;
     letter-spacing: 0.3vw;
+}
+
+.mainContainer h4{
+    font-size: 1.1vw;
+    letter-spacing: 0.2vw;
 }
 
 
@@ -106,6 +114,15 @@ h1,h2,h3,h4{
     border-radius: 10px;
     border: 1px black solid;
 
+}
+
+@media (max-width: 1025px){
+    .mainContainer{
+
+        width: 90vw;
+
+
+    }
 
 
 }
