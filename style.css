@@ -1,4 +1,4 @@
-body{
+body {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
@@ -7,18 +7,19 @@ body{
     font-family: Tahoma;
     background-color: lightgray;
 }
-p{
+
+p {
     font-size: 1vw;
 }
 
-h1,h2,h3,h4{
+h1, h2, h3, h4 {
     width: 100%;
     text-align: center;
     text-transform: uppercase;
     font-weight: normal;
 }
 
-.mainContainer{
+.mainContainer {
     display: flex;
     flex-wrap: wrap;
     align-content: start;
@@ -28,29 +29,28 @@ h1,h2,h3,h4{
 
     width: 60vw;
 
-
+    border-radius: 10px;
     background-color: white;
 }
-.mainContainer h1{
+
+.mainContainer h1 {
     margin-bottom: 1%;
 
     font-size: 2.5vw;
     letter-spacing: 1vw;
 }
 
-.mainContainer h3{
+.mainContainer h3 {
     font-size: 1.5vw;
     letter-spacing: 0.3vw;
 }
 
-.mainContainer h4{
+.mainContainer h4 {
     font-size: 1.1vw;
     letter-spacing: 0.2vw;
 }
 
-
-
-.aboutMe{
+.aboutMe {
     display: flex;
     flex-wrap: wrap;
     align-content: start;
@@ -59,13 +59,13 @@ h1,h2,h3,h4{
     justify-items: center;
 
     width: 48%;
-    height: 89%;
+    height: 88%;
 
     border-right: 1px black solid;
 
 }
 
-.contacts{
+.contacts {
     display: flex;
     flex-wrap: wrap;
     align-content: start;
@@ -74,11 +74,12 @@ h1,h2,h3,h4{
     justify-items: center;
 
     width: 48%;
-    height: 89%;
+    height: 88%;
 
     margin-left: 2%;
 }
-.imgContainer{
+
+.imgContainer {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -88,7 +89,7 @@ h1,h2,h3,h4{
     justify-items: center;
 }
 
-.certificateContainer{
+.certificateContainer {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -98,7 +99,8 @@ h1,h2,h3,h4{
     justify-items: center;
 }
 
-.imgContainer img{
+.imgContainer img {
+    margin-top: 6%;
     width: 12vw;
 
     border-radius: 10px;
@@ -106,7 +108,7 @@ h1,h2,h3,h4{
 
 }
 
-.certificateContainer img{
+.certificateContainer img {
     width: 47%;
 
     margin-bottom: 2%;
@@ -116,13 +118,11 @@ h1,h2,h3,h4{
 
 }
 
-@media (max-width: 1025px){
-    .mainContainer{
+@media (max-width: 1025px) {
+    .mainContainer {
 
         width: 90vw;
 
-
     }
-
 
 }
