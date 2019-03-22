@@ -119,10 +119,38 @@ h1, h2, h3, h4 {
 }
 
 @media (max-width: 1025px) {
+    p{
+        font-size: 1.5vw;
+    }
     .mainContainer {
 
         width: 90vw;
 
+    }
+    .aboutMe{
+        width: 90%;
+        height: 47%;
+        border: none;
+    }
+    .contacts{
+        width: 90%;
+    }
+    .imgContainer img {
+        margin-top: 2%;
+        width: 30vw;
+
+        border-radius: 10px;
+        border: 1px black solid;
+
+    }
+    .imgContainer {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: start;
+        align-items: start;
+        justify-content: start;
+        justify-items: center;
     }
 
 }
