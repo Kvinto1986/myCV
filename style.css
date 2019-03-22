@@ -1,11 +1,15 @@
-body {
+body,.mainContainer,.aboutMe,.contacts,.imgContainer,.certificateContainer {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
+    align-items: center;
     justify-content: center;
-
+    justify-items: center;
+}
+body{
     font-family: Tahoma;
     background-color: lightgray;
+    justify-content: center;
 }
 
 p {
@@ -20,13 +24,6 @@ h1, h2, h3, h4 {
 }
 
 .mainContainer {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: start;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-
     width: 60vw;
 
     border-radius: 10px;
@@ -37,7 +34,7 @@ h1, h2, h3, h4 {
     margin-bottom: 1%;
 
     font-size: 2.5vw;
-    letter-spacing: 1vw;
+    letter-spacing: 0.5vw;
 }
 
 .mainContainer h3 {
@@ -51,56 +48,26 @@ h1, h2, h3, h4 {
 }
 
 .aboutMe {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: start;
-    align-items: start;
-    justify-content: space-between;
-    justify-items: center;
-
     width: 48%;
-    height: 87%;
+    height: 90%;
 
     border-right: 1px black solid;
-
 }
 
 .contacts {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: start;
-    align-items: start;
-    justify-content: space-between;
-    justify-items: center;
-
     width: 48%;
-    height: 87%;
+    height: 90%;
 
     margin-left: 2%;
 }
 
-.imgContainer {
+.imgContainer,.certificateContainer {
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-}
 
-.certificateContainer {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    align-items: center;
-    justify-content: space-between;
-    justify-items: center;
 }
 
 .imgContainer img {
-    margin-top: 6%;
+    margin-top: -53%;
     width: 12vw;
 
     border-radius: 10px;
@@ -112,8 +79,10 @@ h1, h2, h3, h4 {
     width: 47%;
 
     margin-bottom: 2%;
+    margin-right: 2%;
 
     border-radius: 10px;
+
     border: 1px black solid;
 
 }
@@ -145,12 +114,7 @@ h1, h2, h3, h4 {
     }
     .imgContainer {
         width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        align-content: start;
-        align-items: start;
-        justify-content: start;
-        justify-items: center;
+
     }
 
 }
